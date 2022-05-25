@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+.Ruserdata
+README.Rmd
+testPhotos/
+resources/
+fcn_model_building/imagesToAnnotate
+fcn_model_building/annotatedImagesMask
+*.jpg
+*.png
