@@ -11,5 +11,7 @@ fcn_model_training/imagesToAnnotate/
 fcn_model_training/annotatedImagesMask/
 fcn_model_training/model_output/
 fcn_model_training/local_only/
+fcn_model_training/test/
+fcn_model_training/train/
 detectron_model_training/
 *.ipynb_checkpoints
