@@ -6,8 +6,10 @@
 .Ruserdata
 README.Rmd
 testPhotos/
-resources/
-fcn_model_building/imagesToAnnotate
-fcn_model_building/annotatedImagesMask
-*.jpg
-*.png
+resources/bayes_classifier
+fcn_model_training/imagesToAnnotate/
+fcn_model_training/annotatedImagesMask/
+fcn_model_training/model_output/
+fcn_model_training/local_only/
+detectron_model_training/
+*.ipynb_checkpoints
