@@ -25,6 +25,8 @@ including a blank image for color correction.
 **`lightbox`** - materials and instructions for assembling your own
 lightbox.
 
+**`exampleImage`** - three example images are located here.
+
 **`imagesToSegment`** - when deploying the FCN model in a production
 environment, place images here for which inferences will be made.
 
