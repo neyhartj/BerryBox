@@ -47,7 +47,21 @@ jupyter notebook for running the pipeline using SCINet HPC resources.
 
 ## Deploying a production model
 
-To deploy the production FCN model, follow these steps:
+To deploy the trained, cranberry-specific production FCN model on Google
+Colab, follow these steps:
 
-1.  Clone this repository using `git clone`.  
-2.  
+1.  Clone this repository using
+    `git clone git@github.com:neyhartj/BerryBox.git`.  
+2.  Upload the repository to Google Drive.  
+3.  Download the trained model and metadata from this [Google Drive
+    folder](https://drive.google.com/drive/u/2/folders/1xyqVJf9sNX7Yb1VQeCOupQc1oG1nv92e).
+    (This model will be made available elsewhere.) Upload both files to
+    the uploaded BerryBox repository on Google Drive.  
+4.  Open the
+    [deploy_BerryBox_FCNSegmentationModel_Colab.ipynb](https://github.com/neyhartj/BerryBox/blob/master/deploy_BerryBox_FCNSegmentationModel_Colab.ipynb)
+    notebook in Colab.  
+5.  Edit settings and variables as needed in the notebook. Do not edit
+    any lines after the “Other Settings” section. If you are using the
+    example images provided in this repository, the only setting you
+    should need to change is the `proj_dir` path.  
+6.  Run the notebook!
