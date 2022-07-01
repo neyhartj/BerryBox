@@ -1,0 +1,29 @@
+/var/spool/slurmd/job7800263/slurm_script: line 29: cd: /project/gifvl_vaccinium/cranberryImaging/BerryBox/fcn_model_building: No such file or directory
+Fri Jul  1 09:04:56 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.73.05    Driver Version: 510.73.05    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-PCIE...  Off  | 00000000:5E:00.0 Off |                    0 |
+| N/A   43C    P0    42W / 250W |      0MiB / 16384MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-PCIE...  Off  | 00000000:AF:00.0 Off |                    0 |
+| N/A   43C    P0    39W / 250W |      0MiB / 16384MiB |      2%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Traceback (most recent call last):
+  File "trainTest_BerryBox_FCNSegmentationModel_use.py", line 163, in <module>
+    image_files = [x for x in os.listdir(all_image_directory) if image_suffix in x]
+FileNotFoundError: [Errno 2] No such file or directory: '/project/gifvl_vaccinium/cranberryImaging/BerryBox/fcn_model_building/annotatedImagesMask'

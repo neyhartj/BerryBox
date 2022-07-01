@@ -61,12 +61,6 @@
 
 # In[ ]
 
-# Import datetime for saving the date
-from datetime import datetime
-# Create a date string
-ds = datetime.now().strftime("%Y%m%d-%H%M%S")
-
-
 class Material:
  
   def __init__(self, name, input_rgb_vals, output_val, confidence_threshold=0):
@@ -88,7 +82,7 @@ new_training = True
 
 # Project directory
 # IMPORTANT - ALL DIRECTORIES NEED TO END IN A /
-proj_dir = "/project/gifvl_vaccinium/cranberryImaging/BerryBox/fcn_model_building"
+proj_dir = "/project/gifvl_vaccinium/cranberryImaging/BerryBox/fcn_model_training"
 
 #Various input/output directories
 # IMPORTANT: END EACH DIRECTORY PATH WITH A "/"
@@ -104,7 +98,7 @@ testing_fraction = 0.25
 num_models=3
 
 #Model Performance improves with increasing epochs, to a point.
-num_epochs=50
+num_epochs=100
 
 # """Increasing batch size increase model training speed, but also eats up VRAM on the GPU. Find a balance between scale and batch size
 # that best suits your needs"""
@@ -121,7 +115,8 @@ scale = 0.2963362068965517 # This scale will result in images that are 1650 x 11
 # This should be a directory name
 # model_group = "berryBox_fcn_0.0.2/"
 # model_group = "berryBox_fcn_0.0.3/"
-model_group = "berryBox_fcn_production_v1/"
+model_group = "berryBox_fcn_developmental_v4/"
+# model_group = "berryBox_fcn_production_v1/"
 
 
 ## THIS IS NOT A DIRECTORY; DO NOT ADD TRAILING "/"

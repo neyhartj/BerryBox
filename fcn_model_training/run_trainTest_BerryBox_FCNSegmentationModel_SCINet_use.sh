@@ -26,7 +26,7 @@
 #set -o pipefail
 
 # Change working directory
-cd /project/gifvl_vaccinium/cranberryImaging/BerryBox/fcn_model_building
+cd /project/gifvl_vaccinium/cranberryImaging/BerryBox/fcn_model_training
 
 # Activate the virtual environment
 source /project/gifvl_vaccinium/cranberryImaging/virtenv_cuda113/bin/activate
