@@ -23,7 +23,7 @@
 
 
 # Change working directory
-cd /PATH/TO/BerryBox/fcn_model_training/tuning
+cd /PATH/TO/BerryBox/fcn_model_training/
 
 # Activate the virtual environment
 source /PATH/TO/virtenv_cuda113/bin/activate
