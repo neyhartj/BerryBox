@@ -16,8 +16,9 @@ hops](https://github.com/kraltendorf/HopBox).
 
 ## Repository structure
 
-**`fcn_model_training`** - resources and code to train developmental or
-production versions of the FCN model.
+[**`fcn_model_training`**](https://github.com/neyhartj/BerryBox/tree/master/fcn_model_training) -
+resources and code to train developmental or production versions of the
+FCN model.
 
 **`resources`** - other resources for the image analysis pipeline,
 including a blank image for color correction.

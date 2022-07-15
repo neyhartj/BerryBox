@@ -11,7 +11,15 @@ developmental version of the FCN model.
 
 **`annotatedImagesMask`** - The folder of full-size images and masks.
 These are used for training the model. A dataset of images and masks can
-be found here (add link).
+be found in [this Google Drive
+folder](https://drive.google.com/drive/folders/1xfPpYedOKBulpfbyqKLMZ1qbwz_-6tJI?usp=sharing)
+(this dataset will be made available elsewhere).
+
+**`productionModel`** - Place the trained model you would like to use
+for production applications in this folder. A trained model is available
+from this [Google Drive
+folder](https://drive.google.com/drive/u/2/folders/1xyqVJf9sNX7Yb1VQeCOupQc1oG1nv92e).
+(This model will be made available elsewhere.)
 
 Other folders are created by the
 `trainTest_BerryBox_FCNSegmentationModel.py` script, including
@@ -45,8 +53,10 @@ To run the training script on SCINet, follow these steps:
 2.  Add images and masks to the `annotatedImagesMask` folder.  
 3.  Adjust settings (described above) in the
     `trainTest_BerryBox_FCNSegmentationModel.py` script.  
-4.  Run the script using the command below:
+4.  Submit the script to [SCINet’s SLURM batch
+    scheduler](https://scinet.usda.gov/guide/ceres/#batch-mode) using
+    the command below:
 
 <!-- -->
 
-    sh run_trainTest_BerryBox_FCNSegmentationModel_SCINet.sh
+    sbatch run_trainTest_BerryBox_FCNSegmentationModel_SCINet.sh
