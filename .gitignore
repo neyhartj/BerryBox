@@ -8,7 +8,8 @@ README.Rmd
 testPhotos/
 resources/bayes_classifier
 fcn_model_training/imagesToAnnotate/
-fcn_model_training/annotatedImagesMask/
+fcn_model_training/annotatedImagesMask/*.PNG
+fcn_model_training/annotatedImagesMask/*.json
 fcn_model_training/model_output/
 fcn_model_training/local_only/
 fcn_model_training/test/

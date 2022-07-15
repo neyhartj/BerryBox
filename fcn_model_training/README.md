@@ -15,9 +15,10 @@ be found in [this Google Drive
 folder](https://drive.google.com/drive/folders/1xfPpYedOKBulpfbyqKLMZ1qbwz_-6tJI?usp=sharing)
 (this dataset will be made available elsewhere).
 
-**`productionModel`** - Place the trained model you would like to use
-for production applications in this folder. A trained model is available
-from this [Google Drive
+[**`productionModel`**](https://github.com/neyhartj/BerryBox/tree/master/fcn_model_training/productionModel) -
+Place the trained model you would like to use for production
+applications in this folder. A trained model is available from this
+[Google Drive
 folder](https://drive.google.com/drive/u/2/folders/1xyqVJf9sNX7Yb1VQeCOupQc1oG1nv92e).
 (This model will be made available elsewhere.)
 
