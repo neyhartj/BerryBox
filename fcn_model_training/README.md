@@ -9,9 +9,10 @@ developmental version of the FCN model.
 
 ## Directory structure
 
-**`annotatedImagesMask`** - The folder of full-size images and masks.
-These are used for training the model. A dataset of images and masks can
-be found in [this Google Drive
+[**`annotatedImagesMask`**](https://github.com/neyhartj/BerryBox/tree/master/fcn_model_training/annotatedImagesMask) -
+The folder of full-size images and masks. These are used for training
+the model. A dataset of images and masks can be found in [this Google
+Drive
 folder](https://drive.google.com/drive/folders/1xfPpYedOKBulpfbyqKLMZ1qbwz_-6tJI?usp=sharing)
 (this dataset will be made available elsewhere).
 
