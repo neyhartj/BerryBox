@@ -52,7 +52,9 @@ To deploy the trained, cranberry-specific production FCN model on Google
 Colab, follow these steps:
 
 1.  Clone this repository using
-    `git clone git@github.com:neyhartj/BerryBox.git`.  
+    `git clone git@github.com:neyhartj/BerryBox.git` or [download a .zip
+    file](https://github.com/neyhartj/BerryBox/archive/refs/heads/master.zip)
+    of the repository.  
 2.  Upload the repository to Google Drive.  
 3.  Download the trained model and metadata from this [Google Drive
     folder](https://drive.google.com/drive/u/2/folders/1xyqVJf9sNX7Yb1VQeCOupQc1oG1nv92e).
