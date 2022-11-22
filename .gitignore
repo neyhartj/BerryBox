@@ -15,4 +15,5 @@ fcn_model_training/local_only/
 fcn_model_training/test/
 fcn_model_training/train/
 detectron_model_training/
+lightbox/lightbox_photos
 *.ipynb_checkpoints
